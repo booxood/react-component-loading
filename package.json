@@ -1,6 +1,6 @@
 {
   "name": "react-component-loading",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Loading Component",
   "main": "dist/Loading.js",
   "scripts": {

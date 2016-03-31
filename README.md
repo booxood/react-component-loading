@@ -11,19 +11,19 @@ npm install react-component-loading
 
 The `Loading` component has the following properties:
 
-- color `String`
+- **color** `String`
 
   Default: `black`.
 
-- width `Number`
+- **width** `Number`
 
   Default: `60`.
 
-- height `Number`
+- **height** `Number`
 
   Default: `60`.
 
-- type `String`
+- **type** `String`
 
   Default: `square-rotate`.
 
@@ -34,7 +34,9 @@ The `Loading` component has the following properties:
 ```javascript
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Loading = require('react-component-loading');
+// ES6/ES7
+// import Loading from 'react-component-loading'
+var Loading = require('react-component-loading').default;
 
 var App = React.createClass({
   render: function() {
