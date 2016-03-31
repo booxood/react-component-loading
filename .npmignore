@@ -1,0 +1,10 @@
+/.balelrc
+/.editorconfig
+/.eslintignore
+/.eslintrc
+/.gitignore
+/.travis.yml
+
+src/
+test/
+lib/
