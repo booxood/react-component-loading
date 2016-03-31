@@ -13,19 +13,19 @@ The `Loading` component has the following properties:
 
 - color `String`
 
-  Default `black`.
+  Default: `black`.
 
 - width `Number`
 
-  Default `60`.
+  Default: `60`.
 
 - height `Number`
 
-  Default `60`.
+  Default: `60`.
 
 - type `String`
 
-  Default `square-rotate`.
+  Default: `square-rotate`.
 
   Now support `square-rotate`, `square-arrange`.
   > Welcome PR to add animations.

@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import React, {Component, PropTypes} from 'react'
 
 import SquareArrange from './animates/SquareArrange'
 import SquareRotate from './animates/SquareRotate'
@@ -29,7 +29,11 @@ export default class Loading extends Component {
       const AnimationComponent = AnimationMap[type]
       return <AnimationComponent {...{color, width, height}}/>
     } else {
-      return <div>no no no</div>
+      const alert = `[react-component-loading] Unexpected type: ${type}.
+      Only support type: ${Object.keys(AnimationMap)}.
+      `
+      console.warn(alert)
+      return <div>{alert}</div>
     }
   }
 }
