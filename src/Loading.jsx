@@ -17,9 +17,6 @@ export default class Loading extends Component {
   }
 
   static defaultProps = {
-    color: 'black',
-    width: 60,
-    height: 60,
     type: 'square-rotate'
   }
 

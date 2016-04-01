@@ -1,10 +1,18 @@
+var path = require('path')
+
 module.exports = {
   devtool: 'source-map',
-  entry: ['./src/Loading'],
+  entry: {
+    // Why use array? Fix 'Error: a dependency to an entry point is not allowed'
+    // Refer https://github.com/webpack/webpack/issues/300
+    'SquareRotate': ['./src/animates/SquareRotate'],
+    'SquareArrange': ['./src/animates/SquareArrange'],
+    'Loading': './src/Loading'
+  },
   output: {
-    filename: './dist/Loading.js',
-    libraryTarget: 'umd',
-    library: 'Loading'
+    path: path.join(__dirname, 'lib'),
+    filename: '[name].js',
+    libraryTarget: 'umd'
   },
   externals: [{
     react: {

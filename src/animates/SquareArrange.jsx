@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import React, {Component, PropTypes} from 'react'
 
 import style from './SquareArrange.css'
 
@@ -9,8 +9,14 @@ export default class SquareArrange extends Component {
     height: PropTypes.number
   }
 
+  static defaultProps = {
+    color: 'black',
+    width: 60,
+    height: 60
+  }
+
   render() {
-    const { color, width, height } = this.props
+    const {color, width, height} = this.props
     const modal = {
       backgroundColor: color,
       width: width/2,

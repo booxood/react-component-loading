@@ -9,8 +9,14 @@ export default class SquareRotate extends Component {
     height: PropTypes.number
   }
 
+  static defaultProps = {
+    color: 'black',
+    width: 60,
+    height: 60
+  }
+
   render() {
-    const { color, width, height } = this.props
+    const {color, width, height} = this.props
     return <div className={style.animation} style={{backgroundColor: color, width, height}}></div>
   }
 }

@@ -2,9 +2,9 @@
   "name": "react-component-loading",
   "version": "0.0.3",
   "description": "React Loading Component",
-  "main": "dist/Loading.js",
+  "main": "lib/Loading.js",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf lib",
     "build": "cross-env NODE_ENV=production webpack",
     "prepublish": " npm run clean & npm run build"
   },
