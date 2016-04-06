@@ -4,6 +4,8 @@ React `加载` 动画组件，基于 `CSS3 animation`。
 
 [English Readme](https://github.com/booxood/react-component-loading/blob/master/README.md)
 
+[演示](https://booxood.github.io/react-component-loading)
+
 ## 安装
 ```
 npm install react-component-loading

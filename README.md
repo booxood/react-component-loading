@@ -4,6 +4,8 @@ React `Loading` animations component base on `CSS3 animation`.
 
 [中文说明](https://github.com/booxood/react-component-loading/blob/master/README_CN.md)
 
+[DEMO](https://booxood.github.io/react-component-loading)
+
 ## Install
 ```
 npm install react-component-loading
