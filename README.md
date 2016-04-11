@@ -15,6 +15,13 @@ npm install react-component-loading
 
 The `Loading` component has the following properties:
 
+- **type** `String`
+
+  Default: `square-rotate`.
+
+  Now support: `square-rotate`, `square-arrange`.
+  > Welcome PR to add animations.
+
 - **color** `String`
 
   Default: `black`.
@@ -27,12 +34,9 @@ The `Loading` component has the following properties:
 
   Default: `60`.
 
-- **type** `String`
+- **delay** `String`
 
-  Default: `square-rotate`.
-
-  Now support: `square-rotate`, `square-arrange`.
-  > Welcome PR to add animations.
+  默认: `0s`.
 
 ## Example
 ```javascript

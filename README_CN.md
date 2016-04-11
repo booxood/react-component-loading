@@ -15,6 +15,13 @@ npm install react-component-loading
 
 `加载` 动画组件支持以下属性：
 
+- **type** `String`
+
+  默认: `square-rotate`.
+
+  现在支持： `square-rotate`, `square-arrange`.
+  > 欢迎提交 PR 添加其他加载动画。
+
 - **color** `String`
 
   默认: `black`.
@@ -27,12 +34,10 @@ npm install react-component-loading
 
   默认: `60`.
 
-- **type** `String`
+- **delay** `String`
 
-  默认: `square-rotate`.
+  默认: `0s`.
 
-  现在支持： `square-rotate`, `square-arrange`.
-  > 欢迎提交 PR 添加其他加载动画。
 
 ## 示例
 ```javascript

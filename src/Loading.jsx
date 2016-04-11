@@ -13,6 +13,7 @@ export default class Loading extends Component {
     color: PropTypes.string,
     width: PropTypes.number,
     height: PropTypes.number,
+    delay: PropTypes.string,
     type: PropTypes.string
   }
 
@@ -21,10 +22,10 @@ export default class Loading extends Component {
   }
 
   render() {
-    const {color, width, height, type} = this.props
+    const {color, width, height, delay, type} = this.props
     if (AnimationMap[type]) {
       const AnimationComponent = AnimationMap[type]
-      return <AnimationComponent {...{color, width, height}}/>
+      return <AnimationComponent {...{color, width, height, delay}}/>
     } else {
       const alert = `[react-component-loading] Unexpected type: ${type}.
       Only support type: ${Object.keys(AnimationMap)}.
