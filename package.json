@@ -9,7 +9,7 @@
     "prepublish": " npm run clean & npm run build"
   },
   "peerDependencies": {
-    "react": ">= 0.14.0"
+    "react": ">=15.2.0"
   },
   "repository": {
     "type": "git",
